@@ -42,6 +42,14 @@ A modern frontend application built with **Nuxt 4** that allows users to explore
 
 ---
 
+## 📸 Screenshots
+
+### Home
+![Home](./public/screenshots/home.png)
+
+### Country Detail
+![Detail](./public/screenshots/detail.png)
+
 ## 🚀 Setup
 
 ```bash
