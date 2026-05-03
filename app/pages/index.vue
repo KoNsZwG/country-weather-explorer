@@ -160,7 +160,7 @@ const filteredCountries = computed(() => {
               <button
                 type="button"
                 :class="[
-                  'absolute right-4 top-4 rounded-full p-2 shadow-md ring-1 ring-slate-200 transition hover:scale-105',
+                  'absolute right-3 top-3 flex size-9 items-center justify-center rounded-full shadow-md ring-1 ring-slate-200 transition hover:scale-105',
                   isFavourite(country.code)
                     ? 'bg-yellow-400 text-white'
                     : 'bg-white text-slate-600 hover:bg-slate-100',
@@ -172,7 +172,13 @@ const filteredCountries = computed(() => {
                 "
                 @click.prevent="toggleFavourite(country.code)"
               >
-                {{ isFavourite(country.code) ? "★" : "☆" }}
+                <UIcon
+                  name="i-lucide-star"
+                  :class="[
+                    'text-lg transition',
+                    isFavourite(country.code) ? 'fill-current' : 'opacity-70',
+                  ]"
+                />
               </button>
             </figure>
 
