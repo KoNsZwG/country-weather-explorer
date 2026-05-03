@@ -4,6 +4,10 @@ A modern frontend application built with **Nuxt 4** that allows users to explore
 
 ---
 
+## 🔗 Live Demo
+
+## https://country-weather-explorer-phi.vercel.app/
+
 ## ✨ Features
 
 - 🌐 Browse all countries
@@ -45,13 +49,21 @@ A modern frontend application built with **Nuxt 4** that allows users to explore
 ## 📸 Screenshots
 
 ### Home
+
 ![Home](./public/screenshots/home.png)
 
 ### Country Detail
+
 ![Detail](./public/screenshots/detail.png)
+
+## 📈 Future Improvements
+
+- Pagination / infinite scroll
+- Dark mode
 
 ## 🚀 Setup
 
 ```bash
 pnpm install
 pnpm dev
+```
