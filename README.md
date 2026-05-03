@@ -1,75 +1,49 @@
-# Nuxt Minimal Starter
+# 🌍 Country Weather Explorer
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+A modern frontend application built with **Nuxt 4** that allows users to explore countries and view real-time weather data using public APIs.
 
-## Setup
+---
 
-Make sure to install dependencies:
+## ✨ Features
+
+- 🌐 Browse all countries
+- 🔍 Search and filter by region
+- ⭐ Save favourite countries (localStorage)
+- 🌦️ View real-time weather per country
+- ⚡ Server-side API caching
+- 🎯 Clean, semantic UI with Tailwind CSS
+
+---
+
+## 🧠 Tech Stack
+
+- **Nuxt 4**
+- **Vue 3 (Composition API)**
+- **TypeScript**
+- **Tailwind CSS + Nuxt UI**
+- **Nitro Server API**
+
+---
+
+## 🔌 APIs Used
+
+- 🌍 REST Countries API
+- 🌦️ Open-Meteo API
+
+---
+
+## 🏗️ Architecture
+
+- `/server/api` → API layer (data fetching + caching)
+- `/app/composables` → reusable logic
+- `/shared/types` → TypeScript models
+- `useAsyncData` → reactive data fetching
+- `defineCachedEventHandler` → API caching strategy
+
+---
+
+## 🚀 Setup
 
 ```bash
-# npm
-npm install
-
-# pnpm
 pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
 pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
